@@ -3,6 +3,9 @@
 面试的题目：
 
 1. HashMap和Hashtable的区别
+* 都是基于基于哈希表实现键值映射
+* HashMap是非线程同步，Hashtable是非线程同步。
+* HashMap可以允许key、value为空，Hashtable的key、value均不能为空。
 
 2. 实现一个保证迭代顺序的HashMap
 
